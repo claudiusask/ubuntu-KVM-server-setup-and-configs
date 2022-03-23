@@ -1,5 +1,5 @@
 Do the following in Ubuntu 20.04 with GUI or Headless. I am using headless.
-``` sudo apt -y install bridge-utils cpu-checker libvirt-clients libvirt-daemon qemu qemu-kvm ```
+## sudo apt -y install bridge-utils cpu-checker libvirt-clients libvirt-daemon qemu qemu-kvm
 Now go and check if the kvm is set with ```kvm-ok```
 If headless use the cockpit. install cockpit with ```sudo apt install cockpit``` and then ```sudo systemctl start cockpit```
 The cockpit uses port 9090 like this ```https://server-FQDN-OR-IP:9090``` might have to open port on ubuntu ```sudo ufw allow 9090/tcp```
