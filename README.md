@@ -3,6 +3,7 @@ All the setup and configs for Ubuntu 20.04
 
 
 Do the following in Ubuntu 20.04 with GUI or Headless. I am using headless.
+
 ``` sudo apt -y install bridge-utils cpu-checker libvirt-clients libvirt-daemon qemu qemu-kvm ```
 Now go and check if the kvm is set with ```kvm-ok```
 If headless use the cockpit. install cockpit with ```sudo apt install cockpit``` and then ```sudo systemctl start cockpit```
